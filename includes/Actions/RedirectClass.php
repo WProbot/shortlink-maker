@@ -17,7 +17,7 @@ class RedirectClass {
       'meta_query' => [
         'relation' => 'OR',
         [
-          'key' => 'main_link',
+          'key' => 'redirect_link',
           'value' => $current_url_withslash,
         ],
         [
